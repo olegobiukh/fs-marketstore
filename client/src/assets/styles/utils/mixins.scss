@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+
+@mixin button-style {
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $c-dark;
+    color: $c-light;
+  }
+}
+
+@mixin grid-layout {
+  display: grid;
+  grid-auto-flow: column;
+}

@@ -1,0 +1,53 @@
+{
+  "name": "react_sum",
+  "homepage": ".",
+  "version": "0.1.0",
+  "keywords": [],
+  "author": "Oleh",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "antd": "^5.9.4",
+    "axios": "^1.6.0",
+    "classnames": "^2.3.2",
+    "gsap": "^3.12.2",
+    "mysql": "^2.18.1",
+    "postcss": "^8.4.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.63.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "gh-pages": "^3.2.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "node-sass": "^6.0.1",
+    "prop-types": "^15.7.2",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "react-scripts deploy"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+
+$main-width: 1228px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: $open-sans-font;
+  color: $c-dark;
+}
+
+.main {
+  @include grid-layout;
+  width: $main-width;
+  margin: 0 auto;
+  margin-top: 51px;
+}
+
+.page {
+  padding-bottom: 100px;
+}
+
+.button {
+  @include button-style;
+}
